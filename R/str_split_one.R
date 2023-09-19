@@ -6,6 +6,8 @@
 #' @return A character vector.
 #' @export
 #'
+#' @author Rhys Peploe
+#'
 #' @examples
 #' x <- "alfa,bravo,charlie,delta"
 #' strsplit1(x, split = ",")
