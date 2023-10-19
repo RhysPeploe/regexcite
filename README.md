@@ -69,6 +69,8 @@ safety, it will error if its input has length greater than one.
 str_split_one(x, pattern = ",", n = 2)
 #> [1] "alfa"                "bravo,charlie,delta"
 
+author: Rhys Peploe
+
 y <- "192.168.0.1"
 str_split_one(y, pattern = stringr::fixed("."))
 #> [1] "192" "168" "0"   "1"
